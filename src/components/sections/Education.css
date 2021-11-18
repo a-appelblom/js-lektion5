@@ -1,0 +1,6 @@
+.Education-grid {
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+}

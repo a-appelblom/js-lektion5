@@ -1,0 +1,18 @@
+.Styled-Button {
+  border-radius: 100vw;
+  padding: 0.5rem 2rem;
+}
+
+.Styled-Button:hover,
+.Styled-Button.filled:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.Styled-Button.filled {
+  background-color: var(--color-primary);
+  border: none;
+}
+.Styled-Button.outlined {
+  border: 2px solid #000;
+}

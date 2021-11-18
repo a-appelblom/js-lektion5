@@ -1,0 +1,33 @@
+.Hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--color-primary-light);
+}
+
+.Hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 4rem 8rem;
+  text-align: left;
+}
+
+.Hero-title {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.Hero-title span {
+  color: var(--color-primary);
+}
+
+.Hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Hero-CTA {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
