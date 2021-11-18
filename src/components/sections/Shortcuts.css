@@ -1,0 +1,9 @@
+.Shortcuts {
+  background-color: var(--color-primary-light);
+  padding: 4rem;
+}
+
+.Shortcuts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

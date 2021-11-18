@@ -1,0 +1,13 @@
+.SectionHeading {
+  text-align: center;
+  margin: 3rem auto;
+  max-width: 600px;
+}
+.SectionHeading-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.SectionHeading-subtitle {
+  font-size: 1.5rem;
+  max-width: 600px;
+}

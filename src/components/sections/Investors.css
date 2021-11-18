@@ -1,0 +1,88 @@
+.Investors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Investors-details {
+  margin: 4rem;
+  min-width: 600px;
+  background-color: var(--color-primary-light);
+}
+.Investors-details[open] {
+  padding-bottom: 2rem;
+}
+
+.Investors-summary {
+  list-style: none;
+  display: flex;
+  background-color: var(--color-accent);
+  padding: 2rem 0;
+}
+
+.Investors-summary-left {
+  padding: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  border-right: 2px solid white;
+  width: 40%;
+}
+
+.Investors-summary-left p:first-child {
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.Investors-summary-left p:last-child {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.Investors-summary-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2rem;
+  color: white;
+  width: 60%;
+  font-size: 2rem;
+}
+
+.Investors-summary-right p {
+  margin: 0;
+}
+
+.Investors-summary:hover {
+  cursor: pointer;
+}
+
+.Investors-text {
+  padding: 2rem 1rem;
+  margin: 1rem;
+}
+
+.Investors-calendar {
+  border-top: 2px solid black;
+  padding: 1rem;
+  align-self: start;
+}
+
+.Investors-calendar span {
+  text-decoration: underline;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+.Investors-calendar:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Investors-calendar span:hover {
+  text-decoration: none;
+}

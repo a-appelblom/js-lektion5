@@ -1,0 +1,10 @@
+.WorkHere {
+  background-color: var(--color-secondary);
+  padding: 3rem 0;
+}
+
+.WorkHere-CTA {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}

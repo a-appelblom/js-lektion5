@@ -2,6 +2,7 @@ import Button from "../common/Button";
 import React from "react";
 import "./Education.css";
 import Infocard from "../common/InfoCard";
+import Sectionheading from "../common/SectionHeading";
 
 const data = [
   {
@@ -45,11 +46,11 @@ const data = [
 const Education = () => {
   return (
     <section className="Education">
-      <h2>Våra utbildningar</h2>
-      <p>
-        AcadeMedia skapar möjligheter för människor att utvecklas. Vi finns i
-        hela utbildningskedjan, från förskola till vuxenutbildning.
-      </p>
+      <Sectionheading
+        title="Våra utbildningar"
+        subtitle="AcadeMedia skapar möjligheter för människor att utvecklas. Vi finns i
+        hela utbildningskedjan, från förskola till vuxenutbildning."
+      />
       <div className="Education-grid">
         {data.map((item) => (
           <Infocard

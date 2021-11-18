@@ -19,8 +19,11 @@ code {
 :root {
   --color-primary: hsl(163, 100%, 44%);
   --color-primary-light: hsla(163, 100%, 44%, 0.171);
+  --color-secondary: hsl(14, 68%, 96%);
+  --color-accent: hsl(210, 18%, 22%);
 }
 
 section {
   margin: 2rem auto;
+  width: 100%;
 }

@@ -1,0 +1,11 @@
+.Press {
+  background-color: var(--color-secondary);
+  padding: 3rem 8rem;
+}
+
+.Press-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  margin: 4rem 0;
+}
